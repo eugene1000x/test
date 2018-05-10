@@ -1,0 +1,15 @@
+
+{
+	"name": "eugenejonas/test",
+	"require": {
+		"eugenejonas/php_stuff": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"abc\\": "test/"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.2.5"
+	}
+}
